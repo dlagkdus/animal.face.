@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'Giants-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Giants-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+#t_b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#title {
+  margin: 5px;
+  font-family: 'Giants-Bold';
+  font-size: xx-large;
+}
+
+.start {
+  border: 1px solid black;
+  /* Add border-width (1px) and border-style (solid) */
+  background-color: black;
+  color: white;
+  border-radius: 13px;
+}
+
+.start:hover {
+  background-color: gray;
+}
+
+canvas {
+  margin: 40px;
+  border-radius: 13px;
+  border: 5px solid white;
+}
+
+#label-container {
+  margin-top: 30px;
+  width: 400px;
+  height: 70px;
+  display: flex;
+  /* 가로로 정렬되도록 flex-direction 속성을 설정합니다. */
+  flex-direction: row;
+}
+
+#div0 {
+  margin: 5px;
+  border: 2px solid white;
+  border-radius: 13px;
+  text-align: center;
+  background: linear-gradient(to right, #32fd43 100%, #DEDEDE 0%);
+}
+#div1 {
+  margin: 5px;
+  border: 2px solid white;
+  border-radius: 13px;
+  text-align: center;
+  background: linear-gradient(to right, #85ff5d 100%, #DEDEDE 0%);
+}
+#div2 {
+  margin: 5px;
+  border: 2px solid white;
+  border-radius: 13px;
+  text-align: center;
+  background: linear-gradient(to right, #c7ff4f 100%, #DEDEDE 0%);
+}
+#div3 {
+  margin: 5px;
+  border: 2px solid white;
+  border-radius: 13px;
+  text-align: center;
+  background: linear-gradient(to right, #ffff4f 100%, #DEDEDE 0%);
+}
+#div4 {
+  margin: 5px;
+  border: 2px solid white;
+  border-radius: 13px;
+  text-align: center;
+  background: linear-gradient(to right, #ffc14f 100%, #DEDEDE 0%);
+}
+
+
+
+#w_l {
+  display: flex;
+  margin-left: 50px;
+
+}
+
+html {
+  background-color: #CCFFCC;
+}
+
+.graph-container {
+  width: 650px;
+  height: 310px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bar {
+  height: 30px;
+  margin: 5px;
+  transition: width 1s ease;
+  /* 애니메이션 속도와 타이밍 함수 설정 */
+  display: flex;
+  align-items: center;
+  border-radius: 13px;
+}
+#l_b{
+  display: flex;
+  flex-direction: column;
+}
+#bar0{
+  background-color: #32fd43;
+}
+#bar1{
+  background-color: #85ff5d;
+}
+#bar2{
+  background-color: #c7ff4f;
+}
+#bar3{
+  background-color: #ffff4f;
+}
+#bar4{
+  background-color: #ffc14f;
+}
